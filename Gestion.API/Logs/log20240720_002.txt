@@ -1,0 +1,64 @@
+2024-07-20 11:39:52.259 -05:00 [WRN] Failed to determine the https port for redirect.
+2024-07-20 11:39:53.663 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-07-20 11:40:33.196 -05:00 [INF] Authenticating user: cesar@gmail.com
+2024-07-20 11:40:33.484 -05:00 [INF] Stored password hash for user cesar@gmail.com: $2a$11$pxSx9FZejPof0iLR7gEX..EESXNcOd45SWpXT7ZxG64wUTTB3TgqG
+2024-07-20 11:40:33.484 -05:00 [INF] Entered password for user cesar@gmail.com: rasec2020
+2024-07-20 11:40:33.485 -05:00 [INF] Stored password hash length: 60
+2024-07-20 11:40:34.014 -05:00 [INF] Password verification result for user cesar@gmail.com: true
+2024-07-20 11:40:34.015 -05:00 [INF] User authenticated successfully: cesar@gmail.com
+2024-07-20 11:41:13.193 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Gestion.API.Homework.Application.CommandServices.HomeworkCommandService.SaveImageFromBase64(String base64String) in C:\Users\cesar\RiderProjects\Gestion\Gestion.API\Homework\Application\CommandServices\HomeworkCommandService.cs:line 68
+   at Gestion.API.Homework.Application.CommandServices.HomeworkCommandService.CreateHomeworkTask(CreateHomeworkCommand command) in C:\Users\cesar\RiderProjects\Gestion\Gestion.API\Homework\Application\CommandServices\HomeworkCommandService.cs:line 29
+   at Gestion.API.Homework.Interfaces.REST.HomeworkController.CreateHomework(HomeworkResource homeworkResource) in C:\Users\cesar\RiderProjects\Gestion\Gestion.API\Homework\Interfaces\REST\HomeworkController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-07-20 11:41:24.996 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Gestion.API.Homework.Application.CommandServices.HomeworkCommandService.SaveImageFromBase64(String base64String) in C:\Users\cesar\RiderProjects\Gestion\Gestion.API\Homework\Application\CommandServices\HomeworkCommandService.cs:line 68
+   at Gestion.API.Homework.Application.CommandServices.HomeworkCommandService.CreateHomeworkTask(CreateHomeworkCommand command) in C:\Users\cesar\RiderProjects\Gestion\Gestion.API\Homework\Application\CommandServices\HomeworkCommandService.cs:line 29
+   at Gestion.API.Homework.Interfaces.REST.HomeworkController.CreateHomework(HomeworkResource homeworkResource) in C:\Users\cesar\RiderProjects\Gestion\Gestion.API\Homework\Interfaces\REST\HomeworkController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-07-20 11:48:43.728 -05:00 [INF] Authenticating user: cesar@gmail.com
+2024-07-20 11:48:43.739 -05:00 [INF] Stored password hash for user cesar@gmail.com: $2a$11$pxSx9FZejPof0iLR7gEX..EESXNcOd45SWpXT7ZxG64wUTTB3TgqG
+2024-07-20 11:48:43.739 -05:00 [INF] Entered password for user cesar@gmail.com: rasec2020
+2024-07-20 11:48:43.739 -05:00 [INF] Stored password hash length: 60
+2024-07-20 11:48:44.094 -05:00 [INF] Password verification result for user cesar@gmail.com: true
+2024-07-20 11:48:44.095 -05:00 [INF] User authenticated successfully: cesar@gmail.com
+2024-07-20 12:19:20.566 -05:00 [INF] Authenticating user: cesar@gmail.com
+2024-07-20 12:19:20.627 -05:00 [INF] Stored password hash for user cesar@gmail.com: $2a$11$pxSx9FZejPof0iLR7gEX..EESXNcOd45SWpXT7ZxG64wUTTB3TgqG
+2024-07-20 12:19:20.627 -05:00 [INF] Entered password for user cesar@gmail.com: rasec2020
+2024-07-20 12:19:20.628 -05:00 [INF] Stored password hash length: 60
+2024-07-20 12:19:20.842 -05:00 [INF] Password verification result for user cesar@gmail.com: true
+2024-07-20 12:19:20.843 -05:00 [INF] User authenticated successfully: cesar@gmail.com

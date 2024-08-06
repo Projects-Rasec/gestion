@@ -1,0 +1,10 @@
+2024-07-19 02:57:30.247 -05:00 [WRN] Failed to determine the https port for redirect.
+2024-07-19 02:57:32.257 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-07-19 12:20:35.013 -05:00 [WRN] Failed to determine the https port for redirect.
+2024-07-19 12:20:35.907 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-07-19 12:26:33.025 -05:00 [INF] Authenticating user: cesar@gmail.com
+2024-07-19 12:26:33.147 -05:00 [INF] Stored password hash for user cesar@gmail.com: $2a$11$pxSx9FZejPof0iLR7gEX..EESXNcOd45SWpXT7ZxG64wUTTB3TgqG
+2024-07-19 12:26:33.147 -05:00 [INF] Entered password for user cesar@gmail.com: rasec2020
+2024-07-19 12:26:33.148 -05:00 [INF] Stored password hash length: 60
+2024-07-19 12:26:33.426 -05:00 [INF] Password verification result for user cesar@gmail.com: true
+2024-07-19 12:26:33.426 -05:00 [INF] User authenticated successfully: cesar@gmail.com

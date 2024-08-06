@@ -1,0 +1,63 @@
+2024-07-19 01:07:26.687 -05:00 [WRN] Failed to determine the https port for redirect.
+2024-07-19 01:07:27.152 -05:00 [INF] Authenticating user: castilla2004@gmail.com
+2024-07-19 01:07:27.605 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-07-19 01:07:28.701 -05:00 [INF] Stored password hash for user castilla2004@gmail.com: $2a$11$c7Hke.pc2OF3u.Nt4E4MGupOSX8vjBcOKt/JTBuokP2PKRkMfQezS
+2024-07-19 01:07:28.701 -05:00 [INF] Entered password for user castilla2004@gmail.com: castilla2020
+2024-07-19 01:07:28.701 -05:00 [INF] Stored password hash length: 60
+2024-07-19 01:07:28.952 -05:00 [INF] Password verification result for user castilla2004@gmail.com: true
+2024-07-19 01:07:28.952 -05:00 [INF] User authenticated successfully: castilla2004@gmail.com
+2024-07-19 01:31:47.656 -05:00 [WRN] Failed to determine the https port for redirect.
+2024-07-19 01:31:48.599 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-07-19 01:31:57.556 -05:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Gestion.API.Shared.Infrastructure.AppDbContext'.
+System.InvalidOperationException: An error occurred while reading a database value for property 'homework.ImagenBase64'. The expected type was 'System.String' but the actual value was null.
+ ---> System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method21(Closure, QueryContext, DbDataReader, Int32[])
+   --- End of inner exception stack trace ---
+   at lambda_method21(Closure, QueryContext, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An error occurred while reading a database value for property 'homework.ImagenBase64'. The expected type was 'System.String' but the actual value was null.
+ ---> System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method21(Closure, QueryContext, DbDataReader, Int32[])
+   --- End of inner exception stack trace ---
+   at lambda_method21(Closure, QueryContext, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-07-19 01:31:57.618 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: An error occurred while reading a database value for property 'homework.ImagenBase64'. The expected type was 'System.String' but the actual value was null.
+ ---> System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method21(Closure, QueryContext, DbDataReader, Int32[])
+   --- End of inner exception stack trace ---
+   at lambda_method21(Closure, QueryContext, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Gestion.API.Homework.Infrastructure.Persistence.JPA.Repositories.HomeworkRepository.GetAllAsync() in C:\Users\cesar\RiderProjects\Gestion\Gestion.API\Homework\Infrastructure\Persistence\JPA\Repositories\HomeworkRepository.cs:line 22
+   at Gestion.API.Homework.Interfaces.REST.HomeworkController.GetAllHomeworkTasks() in C:\Users\cesar\RiderProjects\Gestion\Gestion.API\Homework\Interfaces\REST\HomeworkController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-07-19 01:37:34.183 -05:00 [INF] Authenticating user: cesar@gmail.com
+2024-07-19 01:37:34.404 -05:00 [INF] Stored password hash for user cesar@gmail.com: $2a$11$pxSx9FZejPof0iLR7gEX..EESXNcOd45SWpXT7ZxG64wUTTB3TgqG
+2024-07-19 01:37:34.405 -05:00 [INF] Entered password for user cesar@gmail.com: rasec2020
+2024-07-19 01:37:34.405 -05:00 [INF] Stored password hash length: 60
+2024-07-19 01:37:34.787 -05:00 [INF] Password verification result for user cesar@gmail.com: true
+2024-07-19 01:37:34.787 -05:00 [INF] User authenticated successfully: cesar@gmail.com

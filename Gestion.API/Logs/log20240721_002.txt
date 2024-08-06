@@ -1,0 +1,64 @@
+2024-07-21 13:51:30.616 -05:00 [WRN] Failed to determine the https port for redirect.
+2024-07-21 13:51:31.460 -05:00 [INF] Authenticating user: cesar@gmail.com
+2024-07-21 13:51:32.315 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-07-21 13:51:34.392 -05:00 [INF] Stored password hash for user cesar@gmail.com: $2a$11$pxSx9FZejPof0iLR7gEX..EESXNcOd45SWpXT7ZxG64wUTTB3TgqG
+2024-07-21 13:51:34.392 -05:00 [INF] Entered password for user cesar@gmail.com: rasec2020
+2024-07-21 13:51:34.393 -05:00 [INF] Stored password hash length: 60
+2024-07-21 13:51:34.915 -05:00 [INF] Password verification result for user cesar@gmail.com: true
+2024-07-21 13:51:34.915 -05:00 [INF] User authenticated successfully: cesar@gmail.com
+2024-07-21 13:57:04.983 -05:00 [INF] Authenticating user: cesar@gmail.com
+2024-07-21 13:57:04.997 -05:00 [INF] Stored password hash for user cesar@gmail.com: $2a$11$pxSx9FZejPof0iLR7gEX..EESXNcOd45SWpXT7ZxG64wUTTB3TgqG
+2024-07-21 13:57:04.997 -05:00 [INF] Entered password for user cesar@gmail.com: rasec2020
+2024-07-21 13:57:04.997 -05:00 [INF] Stored password hash length: 60
+2024-07-21 13:57:05.368 -05:00 [INF] Password verification result for user cesar@gmail.com: true
+2024-07-21 13:57:05.369 -05:00 [INF] User authenticated successfully: cesar@gmail.com
+2024-07-21 14:38:42.214 -05:00 [INF] Authenticating user: cesar@gmail.com
+2024-07-21 14:38:42.227 -05:00 [INF] Stored password hash for user cesar@gmail.com: $2a$11$pxSx9FZejPof0iLR7gEX..EESXNcOd45SWpXT7ZxG64wUTTB3TgqG
+2024-07-21 14:38:42.227 -05:00 [INF] Entered password for user cesar@gmail.com: rasec2020
+2024-07-21 14:38:42.227 -05:00 [INF] Stored password hash length: 60
+2024-07-21 14:38:42.529 -05:00 [INF] Password verification result for user cesar@gmail.com: true
+2024-07-21 14:38:42.529 -05:00 [INF] User authenticated successfully: cesar@gmail.com
+2024-07-21 14:43:29.171 -05:00 [INF] Authenticating user: cesar@gmail.com
+2024-07-21 14:43:29.191 -05:00 [INF] Stored password hash for user cesar@gmail.com: $2a$11$pxSx9FZejPof0iLR7gEX..EESXNcOd45SWpXT7ZxG64wUTTB3TgqG
+2024-07-21 14:43:29.191 -05:00 [INF] Entered password for user cesar@gmail.com: rasec2020
+2024-07-21 14:43:29.191 -05:00 [INF] Stored password hash length: 60
+2024-07-21 14:43:29.419 -05:00 [INF] Password verification result for user cesar@gmail.com: true
+2024-07-21 14:43:29.419 -05:00 [INF] User authenticated successfully: cesar@gmail.com
+2024-07-21 14:43:43.490 -05:00 [INF] Authenticating user: cesar@gmail.com
+2024-07-21 14:43:43.492 -05:00 [INF] Stored password hash for user cesar@gmail.com: $2a$11$pxSx9FZejPof0iLR7gEX..EESXNcOd45SWpXT7ZxG64wUTTB3TgqG
+2024-07-21 14:43:43.492 -05:00 [INF] Entered password for user cesar@gmail.com: rasec2020
+2024-07-21 14:43:43.492 -05:00 [INF] Stored password hash length: 60
+2024-07-21 14:43:43.842 -05:00 [INF] Password verification result for user cesar@gmail.com: true
+2024-07-21 14:43:43.842 -05:00 [INF] User authenticated successfully: cesar@gmail.com
+2024-07-21 14:45:36.239 -05:00 [INF] Authenticating user: cesar@gmail.com
+2024-07-21 14:45:36.246 -05:00 [INF] Stored password hash for user cesar@gmail.com: $2a$11$pxSx9FZejPof0iLR7gEX..EESXNcOd45SWpXT7ZxG64wUTTB3TgqG
+2024-07-21 14:45:36.246 -05:00 [INF] Entered password for user cesar@gmail.com: rasec2020
+2024-07-21 14:45:36.246 -05:00 [INF] Stored password hash length: 60
+2024-07-21 14:45:36.377 -05:00 [INF] Password verification result for user cesar@gmail.com: true
+2024-07-21 14:45:36.377 -05:00 [INF] User authenticated successfully: cesar@gmail.com
+2024-07-21 14:50:23.559 -05:00 [WRN] Failed to determine the https port for redirect.
+2024-07-21 14:50:23.794 -05:00 [INF] Authenticating user: cesar@gmail.com
+2024-07-21 14:50:24.138 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-07-21 14:50:24.856 -05:00 [INF] Stored password hash for user cesar@gmail.com: $2a$11$pxSx9FZejPof0iLR7gEX..EESXNcOd45SWpXT7ZxG64wUTTB3TgqG
+2024-07-21 14:50:24.856 -05:00 [INF] Entered password for user cesar@gmail.com: rasec2020
+2024-07-21 14:50:24.857 -05:00 [INF] Stored password hash length: 60
+2024-07-21 14:50:25.094 -05:00 [INF] Password verification result for user cesar@gmail.com: true
+2024-07-21 14:50:25.095 -05:00 [INF] User authenticated successfully: cesar@gmail.com
+2024-07-21 14:57:44.750 -05:00 [INF] Authenticating user: cesar@gmail.com
+2024-07-21 14:57:44.819 -05:00 [INF] Stored password hash for user cesar@gmail.com: $2a$11$pxSx9FZejPof0iLR7gEX..EESXNcOd45SWpXT7ZxG64wUTTB3TgqG
+2024-07-21 14:57:44.819 -05:00 [INF] Entered password for user cesar@gmail.com: rasec2020
+2024-07-21 14:57:44.819 -05:00 [INF] Stored password hash length: 60
+2024-07-21 14:57:45.069 -05:00 [INF] Password verification result for user cesar@gmail.com: true
+2024-07-21 14:57:45.069 -05:00 [INF] User authenticated successfully: cesar@gmail.com
+2024-07-21 14:58:51.160 -05:00 [INF] Authenticating user: cesar@gmail.com
+2024-07-21 14:58:51.175 -05:00 [INF] Stored password hash for user cesar@gmail.com: $2a$11$pxSx9FZejPof0iLR7gEX..EESXNcOd45SWpXT7ZxG64wUTTB3TgqG
+2024-07-21 14:58:51.175 -05:00 [INF] Entered password for user cesar@gmail.com: rasec2020
+2024-07-21 14:58:51.175 -05:00 [INF] Stored password hash length: 60
+2024-07-21 14:58:51.311 -05:00 [INF] Password verification result for user cesar@gmail.com: true
+2024-07-21 14:58:51.311 -05:00 [INF] User authenticated successfully: cesar@gmail.com
+2024-07-21 16:16:49.066 -05:00 [INF] Authenticating user: cesar@gmail.com
+2024-07-21 16:16:49.190 -05:00 [INF] Stored password hash for user cesar@gmail.com: $2a$11$pxSx9FZejPof0iLR7gEX..EESXNcOd45SWpXT7ZxG64wUTTB3TgqG
+2024-07-21 16:16:49.190 -05:00 [INF] Entered password for user cesar@gmail.com: rasec2020
+2024-07-21 16:16:49.190 -05:00 [INF] Stored password hash length: 60
+2024-07-21 16:16:49.339 -05:00 [INF] Password verification result for user cesar@gmail.com: true
+2024-07-21 16:16:49.339 -05:00 [INF] User authenticated successfully: cesar@gmail.com

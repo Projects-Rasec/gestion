@@ -1,0 +1,8 @@
+2024-07-19 01:07:26.687 -05:00 [WRN] Failed to determine the https port for redirect.
+2024-07-19 01:07:27.152 -05:00 [INF] Authenticating user: castilla2004@gmail.com
+2024-07-19 01:07:27.605 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-07-19 01:07:28.701 -05:00 [INF] Stored password hash for user castilla2004@gmail.com: $2a$11$c7Hke.pc2OF3u.Nt4E4MGupOSX8vjBcOKt/JTBuokP2PKRkMfQezS
+2024-07-19 01:07:28.701 -05:00 [INF] Entered password for user castilla2004@gmail.com: castilla2020
+2024-07-19 01:07:28.701 -05:00 [INF] Stored password hash length: 60
+2024-07-19 01:07:28.952 -05:00 [INF] Password verification result for user castilla2004@gmail.com: true
+2024-07-19 01:07:28.952 -05:00 [INF] User authenticated successfully: castilla2004@gmail.com
